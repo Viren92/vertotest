@@ -1,0 +1,271 @@
+﻿
+<?php 
+
+?>
+<!doctype html>
+<script runat="server">
+
+
+
+
+
+    Public Sub OnEdit(sender As Object, e As EventArgs)
+
+    End Sub
+
+
+    Public Sub OnDelete(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Public Sub ItemUpdated(sender As Object, e As EventArgs)
+
+
+    End Sub
+
+    Public Sub OnCancel(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Public Sub SqlDataSource2_Selecting(sender As Object, e As SqlDataSourceSelectingEventArgs)
+
+    End Sub
+
+
+
+    Public Sub GridView(source As Object, e As EventArgs)
+
+
+    End Sub
+
+    Public Sub DetailsView(source As Object, e As EventArgs)
+
+
+    End Sub
+
+
+
+
+    Protected Sub Page_Load(sender As Object, e As EventArgs)
+
+    End Sub
+
+
+
+
+</script>
+
+<html class="no-js" lang="en">
+<head>
+<meta charFoundation | Welcome</title>
+<link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+<link href='https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+
+
+
+   
+
+    <form id="form1" runat="server">
+
+
+
+
+   
+
+<div class="top-bar">
+<div class="top-bar-left">
+    <ul class="menu" style="font-family:'MS PGothic'; font-size:40px; color:darkgreen">
+<li>OLITRICON</li>
+</ul>
+<ul class="menu">
+
+<li><a href="#">Our Products</a></li>
+<li><a href="#">Where to Buy</a></li>
+<li><a href="#">News and Reviews</a></li>
+<li><a href="#">Help and Support</a></li>
+<li><a href="#">My Options</a></li>
+</ul>
+</div>
+<div class="top-bar-right">
+<ul class="menu">
+<li><input type="search" placeholder="Search"></li>
+<li><button type="button" class="button">Search</button></li>
+</ul>
+</div>
+</div>
+
+<div  data-orbit>
+<ul class="orbit-container">
+<button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+<button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+<li class="orbit-slide is-active" style="margin:0 auto; height:600px;" >
+<img src="http://briansheridanphotography.ie/wp-content/uploads/2016/10/straw-field-col.jpg">
+</li>
+<li class="orbit-slide">
+<img src="http://briansheridanphotography.ie/wp-content/uploads/2016/10/straw-field-col.jpg">
+</li>
+<li class="orbit-slide">
+<img src="http://briansheridanphotography.ie/wp-content/uploads/2016/10/straw-field-col.jpg">
+</li>
+<li class="orbit-slide">
+<img src="http://briansheridanphotography.ie/wp-content/uploads/2016/10/straw-field-col.jpg">
+</li>
+</ul>
+</div>
+<div class="row column text-center">
+
+<hr>
+</div>
+<div class="row small-up-1  medium-up-2 large-up-4">
+<div class="column">
+    <h5>New Products</h5>
+<img class="thumbnail" src="https://images.unsplash.com/photo-1531884070720-875c7622d4c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" style="width:300px;height:350px;">
+<p>fddfvdfbvb odfhiogvoigjreo fbfjggjpohgpoh rgioeajgiogjoigj oergoijgejgpergpoerg oiergegrijergperjg</p>
+
+<a href="#" class="button expanded">New Products</a>
+</div>
+<div class="column">
+    <h5>Field Events</h5>
+<img class="thumbnail" src="https://www.gamblingappstore.net/wp-content/uploads/2018/04/848x450_Horse-Racing.jpeg"style="width:300px;height:350px;">
+<p>fddfvdfbvb odfhiogvoigjreo fbfjggjpohgpoh rgioeajgiogjoigj oergoijgejgpergpoerg oiergegrijergperjg</p>
+
+<a href="#" class="button expanded">View Events</a>
+</div>
+<div class="column">
+    <h5>Latest News</h5>
+<img class="thumbnail" src="https://s24890.pcdn.co/wp-content/uploads/2017/08/Slovenia-Lake-Bled-Photo-Locations-22.jpg" style="width:300px;height:350px;">
+<p>fddfvdfbvb odfhiogvoigjreo fbfjggjpohgpoh rgioeajgiogjoigj oergoijgejgpergpoerg oiergegrijergperjg</p>
+<a href="#" class="button expanded">Read Article</a>
+</div>
+<div class="column">
+    <h5>Gallery</h5>
+<img class="thumbnail" src="http://voice.gardenbird.co.uk/wp-content/uploads/2017/01/House-sparrow-in-water.jpg"style="width:300px;height:350px;">
+<p>fddfvdfbvb odfhiogvoigjreo fbfjggjpohgpoh rgioeajgiogjoigj oergoijgejgpergpoerg oiergegrijergperjg</p>
+
+<a href="#" class="button expanded">View Gallery</a>
+</div>
+</div>
+<hr>
+
+<hr>
+
+<div class="row small-up-1 medium-up-1 large-up-3" style="background-color:aliceblue" >
+  
+    <h1 style="text-align:center;"> Special Offers</h1>
+          
+
+<div class="column" >
+
+<p></p>
+<p><img src="https://placehold.it/400x370&text=Pegasi B" alt="image of a planet called Pegasi B"></p>
+<p class="lead">DISCOVERY WP PC</p>
+<p class="subheader">£20 Cashback</p>
+</div>
+
+<div class="column">
+
+<p></p>
+<p><img src="https://placehold.it/400x370&text=Pegasi B" alt="image of a planet called Pegasi B"></p>
+<p class="lead">HR LD Fieldscopes</p>
+<p class="subheader">Free Digiscoping Kit</p>
+</div>
+
+<div class="column">
+
+<p></p>
+<p><img src="https://placehold.it/400x370&text=Pegasi B" alt="image of a planet called Pegasi B"></p>
+<p class="lead">IS 60 WP Fieldscope Kits</p>
+<p class="subheader">Save 25%</p>
+</div>
+
+
+</div>
+<div class="row small-up-1 medium-up-1 large-up-3" style="width:280px; margin-top:2em">
+    <a href="#" class="button expanded" >View All Offers</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+<script>
+      $(document).foundation();
+    </script>
+        
+        
+            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="SqlDataSource1" HorizontalAlign="Center"   >
+                <Columns >
+                    <asp:CommandField ShowSelectButton="True" />
+                    <asp:BoundField DataField="Id"  ReadOnly="True" SortExpression="Id" />
+                    <asp:ImageField DataImageUrlField="one" ItemStyle-Width="250px" ></asp:ImageField>
+                    <asp:ImageField DataImageUrlField="two" ItemStyle-Width="250px"></asp:ImageField>
+                   <asp:ImageField DataImageUrlField="three" ItemStyle-Width="250px"></asp:ImageField>
+                    <asp:ImageField DataImageUrlField="four" ItemStyle-Width="250px"></asp:ImageField>
+                    
+                </Columns>
+            </asp:GridView>
+            <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="Id" DataSourceID="SqlDataSource2" Height="50px" Width="125px">
+                <Fields>
+                    <asp:BoundField DataField="Id" HeaderText="Id" ReadOnly="True" SortExpression="Id" />
+                    
+                    <asp:BoundField DataField="one" HeaderText="one" SortExpression="one" />
+                    <asp:BoundField DataField="two" HeaderText="two" SortExpression="two" />
+                    <asp:BoundField DataField="three" HeaderText="three" SortExpression="three" />
+                    <asp:BoundField DataField="four" HeaderText="four" SortExpression="four" />
+                </Fields>
+            </asp:DetailsView>
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:test3conn %>" SelectCommand="SELECT [Id], [one], [two], [three], [four] FROM [Table]"></asp:SqlDataSource>
+                          
+            <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:test3conn %>" DeleteCommand="DELETE FROM [Table] WHERE [Id] = @Id" InsertCommand="INSERT INTO [Table] ([Id], [one], [two], [three], [four]) VALUES (@Id, @one, @two, @three, @four)" SelectCommand="SELECT [Id], [one], [two], [three], [four] FROM [Table] WHERE ([Id] = @Id)" UpdateCommand="UPDATE [Table] SET [one] = @one, [two] = @two, [three] = @three, [four] = @four WHERE [Id] = @Id">
+                <DeleteParameters>
+                    <asp:Parameter Name="Id" Type="String" />
+                </DeleteParameters>
+                <InsertParameters>
+                    <asp:Parameter Name="Id" Type="String" />
+                    <asp:Parameter Name="one" Type="String" />
+                    <asp:Parameter Name="two" Type="String" />
+                    <asp:Parameter Name="three" Type="String" />
+                    <asp:Parameter Name="four" Type="String" />
+                </InsertParameters>
+                <SelectParameters>
+                    <asp:ControlParameter ControlID="GridView1" Name="Id" PropertyName="SelectedValue" Type="String" />
+                </SelectParameters>
+
+                <UpdateParameters>
+                    <asp:Parameter Name="one" Type="String" />
+                    <asp:Parameter Name="two" Type="String" />
+                    <asp:Parameter Name="three" Type="String" />
+                    <asp:Parameter Name="four" Type="String" />
+                    <asp:Parameter Name="Id" Type="String" />
+                </UpdateParameters>
+
+            </asp:SqlDataSource>
+        </p>
+    </form>
+    
+</body>
+
+
+</html>
+
