@@ -251,7 +251,7 @@
                     
                 </Columns>
             </asp:GridView>
-            <asp:DetailsView ID="DetailsView1"  runat="server" AutoGenerateRows="False" DataKeyNames="Id" DataSourceID="SqlDataSource2" Height="50px" Width="300px" OnPageIndexChanging="DetailsView1_PageIndexChanging" OnItemUpdated="DetailsView1_ItemUpdated" InsertVisible="False" ReadOnly="True">
+            <asp:DetailsView ID="DetailsView1"  runat="server" AutoGenerateRows="False" DataKeyNames="Id" DataSourceID="SqlDataSource2" Height="50px" Width="300px" OnPageIndexChanging="DetailsView1_PageIndexChanging" OnItemUpdated="DetailsView1_ItemUpdated" >
                 <Fields>
                     
                     
